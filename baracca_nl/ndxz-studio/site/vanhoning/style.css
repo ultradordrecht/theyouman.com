@@ -1,0 +1,115 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Gregory Cadar
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	line-height:16px;
+	font-family:"Courier New", Courier, monospace;
+	color: #FFF;
+	background: #231f20;
+	background-image:url(../../../baracca_bg.jpg);
+	background-attachment:fixed;
+	background-position:top;
+}
+.intro {	color:#FFF; }
+.kop { font-size:14px; color:#FF0000; }
+.sub { font-size:10px; color:#999999; text-align:right; text-align:right; }
+
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a.small:link, a.small:visited {
+	font-size:10px;
+	color:#999;
+	text-decoration: none;
+}
+a.small:hover  {
+	font-size:10px;
+	color: #FFFFFF;
+	text-decoration:none;
+	text-transform:none;
+
+}
+a:link, a:visited {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+a:hover  {
+	color: #FF0000;
+	text-decoration:none;
+	text-transform:none;
+
+}
+
+.active  {
+	color: #FF0000;
+	text-decoration:none;
+
+}
+a img { border: none; }
+img { padding-top:20px; padding-bottom:20px; }
+
+#menu { 
+	
+	position:relative;
+	margin-top:0px;  
+	margin-left:25px;
+    width: 280px;
+    /*overflow: auto;*/
+    top: 0;
+	left: 0;
+	float:left;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 12px 0;
+	text-align:right;
+}
+
+#menu ul li.section-title { font-size:14px; color:#FF0000;}
+
+#menu li.active a { text-decoration: none; color:#FF0000;}
+#menu li.active a:hover { text-decoration: none; color: #900;}
+
+ul
+{
+list-style-type: none;
+}
+#content {
+	width:600px;
+    margin-left: 50px;
+    top: 0;
+	margin-top:125px;
+}
+
+.container {
+    padding: 5px 5px 5px 5px;
+}
+
+#content p { width: 600px; margin-bottom: 9px; }
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1 { font-size: 16px; line-height:20px; color:#ffffff; font-weight:normal; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 550px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }

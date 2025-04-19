@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+font-family:"Trebuchet MS";
+margin:0px;
+margin-left:39px;
+background-image:url(../imgs/background.jpg);
+background-repeat:repeat;
+background-attachment:fixed;
+overflow-x:hidden;
+}
+
+#menu {
+margin-left:0px;
+margin-top:165px;
+width:310px;
+position:fixed;
+top: 0px;
+position: expression("absolute");
+top: expression(eval(document.body.scrollTop));
+font:"Trebuchet MS";
+text-align:right;
+float:left;
+}
+
+#logo_img { behavior: url(scripts/iepngfix.htc) }
+
+#main {
+left:388px;
+margin-top:149px;
+position:absolute;
+}
+
+#maintext {
+margin:0px;
+font:"Trebuchet MS";
+color:#999999;
+font-size:12px;
+line-height:15px;
+text-align:left;
+width:530px;
+}
+
+
+.divstyle {
+margin:0px;
+width:530px;
+float:left;
+}
+
+.divinactive { text-decoration: line-through; color:#999999; }
+.divactive { text-decoration:none; }
+
+
+#project_divdiv {
+margin:0px;
+width:405px;
+height:100px;
+float:right;
+}
+
+a.menu:link, a.menu:visited {
+	font:"Trebuchet MS";
+	color:#000000;
+	font-size:13px;
+	line-height:26px;
+	text-decoration:line-through;
+	}
+a.menu:hover {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:13px;
+	line-height:26px;
+	text-decoration:none;
+	}
+	
+a.submenu:link, a.submenu:visited {
+	font:"Trebuchet MS";
+	color:#999999;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:line-through;
+	}
+a.submenu:hover {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:none;
+	}
+	
+a.aktief:link, a.aktief:visited {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:13px;
+	line-height:26px;
+	text-decoration:none;
+	}
+a.aktief:hover {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:13px;
+	line-height:26px;
+	text-decoration:none;
+	}
+.bodytxt {
+font:"Trebuchet MS";
+color:#999999;
+font-size:12px;
+line-height:15px;
+}
+	
+.kop {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:13px;
+	text-decoration:none;
+	}
+.intro {
+	font:"Trebuchet MS";
+	color:#999999;
+	font-size:13px;
+	text-decoration:none;
+	font-style:italic;
+	}
+.kopgrijs {
+	font:"Trebuchet MS";
+	color:#999999;
+	font-size:13px;
+	text-decoration:none;
+	}
+.koplichtgrijs {
+	font:"Trebuchet MS";
+	color:#CCCCCC;
+	font-size:13px;
+	text-decoration:none;
+	}
+.kopdonkergrijs {
+	font:"Trebuchet MS";
+	color:#333333;
+	font-size:13px;
+	text-decoration:none;
+	}
+	
+a.subaktief:link, a.subaktief:visited {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:none;
+	}
+a.subaktief:hover {
+	font:"Trebuchet MS";
+	color:#3399CC;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:none;
+	}
+	
+a.terug:link, a.terug:visited {
+	font:"Trebuchet MS";
+	color:#999999;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:line-hrough;
+	}
+a.terug:hover {
+	font:"Trebuchet MS";
+	color:#999999;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:none;
+	}
+.terugaktief {
+	font:"Trebuchet MS";
+	color:#CCCCCC;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:none;
+	}
+.teruginaktief {
+	font:"Trebuchet MS";
+	color:#EEEEEE;
+	font-size:12px;
+	line-height:16px;
+	text-decoration:none;
+	}
+	
+a:link, a:visited {
+ 	color:#3399CC;
+ 	text-decoration:line-through;
+	}
+a:hover {
+ 	color:#3399CC;
+ 	text-decoration:none;
+	}
+a.lkzwart:link, a.lkzwart:visited {
+ 	color:#000000;
+ 	text-decoration:line-through;
+	}
+a.lkzwart:hover {
+ 	color:#3399CC;
+ 	text-decoration:none;
+	}
+
+
+
+
+
+#beheer {
+margin-left:0px;
+margin-top:50px;
+width:600px;
+font:"Trebuchet MS";
+color:#000000;
+font-size:13px;
+line-height:16px;
+text-align:left;
+}
+
+
+
+
