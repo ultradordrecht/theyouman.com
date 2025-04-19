@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+label {
+	color: #909090;
+	font-family: 'Asap', sans-serif;
+	font-weight: 400;
+	font-size: 14px;	
+	text-shadow: 0 1px 0 rgba(255,255,255,.5); /* drop shadow */
+}
+input, select, textarea {
+	border:0; 
+	padding:5px; 
+	font-family: Arial, sans-serif;
+	color:#288aa8; 
+	font-weight: 400;
+	font-size: 14px;	
+
+	border-top:1px solid #ccc;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #ccc;
+
+	border-width:1px 0 1px 0;
+	
+	background:#f9f9f9;
+	text-decoration:none;
+
+	margin:5px 0 10px 0; 
+	width:100%;
+	
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+
+	-webkit-border-radius: 1px; 
+	-moz-border-radius: 1px; 
+	border-radius: 1px;							
+}
+
+textarea {
+	height: 120px;
+}
+input:focus { 
+	border:solid 1px #024251; 
+}
+
+/* BUTTONS */
+
+a {
+    outline: 0 none;
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+
+}
+
+.button {
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	
+    cursor: pointer;
+    height: auto;
+        
+    text-align: center;
+    
+    width: 100%;
+   	height: 25px;
+   	
+    padding: 0px;
+    padding-top: 6px;
+    
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+	font-family:  "museo-slab", serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+.button_one {
+	background-color:#288aa8;
+	color: #f1f0e2;
+	text-decoration:none;
+	
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.button_one:hover{
+	background-color: #024251;
+	color: #f1f0e2;
+}
+
+.button_two {
+	font-weight: 400;
+	font-size: 14px;
+	width: 130px;
+	float: right;
+	background-color:#1e6883;
+	color: #ffcc33;
+}
+.button_two:hover{
+	background-color: #ffcc33;
+	color: #024251;
+}
+
+.button_three {
+	margin-left: 5px;
+	font-weight: 400;
+	font-size: 12px;
+	float: left;
+	width: 75px;
+	background-color: #1e6883;
+	color: #f1f0e2;	
+}
+.button_three:hover{
+	background-color: #024251;
+	color: #ffcc33;
+
+}
+.button_four {
+	margin-right: 5px;
+	font-weight: 400;
+	font-size: 14px;
+	width: 130px;
+	background-color: #ffcc33;
+	color: #024251;
+}
+.button_four:hover{
+	background-color:#1e6883;
+	color: #ffcc33;
+}
+
+.button_input {
+-webkit-appearance: none;
+    height: 50px;
+	width: 100%;
+	padding: 5px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;     
+}
+

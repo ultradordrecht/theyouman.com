@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* TEXT */
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* LISTS */
+
+ul, li { 
+	list-style: none; 	
+	margin:0px;
+	padding:0px;
+}
+li {float: left;}
+
+.padding {
+	padding: 10px;
+}
+
+/* LINKS */
+
+a:link, a:visited { color:#ff9000; text-decoration:none; outline:none;}
+a:hover { text-decoration:underline;}
+
+.h1_link:link, .h1_link:visited { 
+	font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color:#ff9000; 
+	text-decoration:none; outline:none;
+	}
+.h1_link:hover { color:#000; text-decoration:none; outline:none;}
+
+.inactive {
+		font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color:#ccc; 
+	text-decoration:none; outline:none;
+}
+
+ul .page {
+	font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 40px;
+	color: #000;
+	
+	width: 100%;
+	margin-left: 10px;
+	overflow: auto;
+	text-indent: 10px;
+	text-decoration:none; outline:none;	
+	text-transform: uppercase;
+}
+ul .page:hover {
+	color:#ff9000;
+}
+
+ul .highlight, .li_subnav .highlight {
+	color: #ff9000;
+}
+
+.nav {
+}
+.li_nav {
+	margin-top: 10px;
+	width:	220px;
+	height: 40px;
+	background-color: #FFF;
+	display: block;
+}
+.li_subnav {
+	margin-left: 10px;
+}
+.subnav:link, .subnav:visited {
+	color:#999;
+}
+.subnav:hover {
+	color:#009DDB;
+}
+
+.lnk_oproep:link, .lnk_oproep:visited {
+	color:#000;
+	text-decoration: none;
+}
+.lnk_oproep:hover {
+	color: #FFF;
+}
+/* HEADERS */
+
+h1,h2,h3,h4,h5 {
+	display: inline; 
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Anton', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+h1 { 
+	font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #1e6883;
+}
+h2 { 
+	font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+h3 { 
+	font-family: 'Anton', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #FFF;
+	text-transform: uppercase;
+
+}
+h4 {
+	font-style: italic;
+	color: #ff9000;
+}
+
+/* TEXT STYLING */
+
+.intro{
+	display: inline; 
+	color: #000;
+	font-size: 17px;
+	line-height: 23px;
+	font-style: italic;
+}
+
+*::-moz-selection, ::selection {
+    background-color: #ff9000;
+    color: #FFF;
+}
+
+.col1 {	color:#ff9000; } /* orange */
+.col2 {	color:#288aa8; } /* light blue */
+.col3 { color:#1e6883; } /* darker blue */
+.col4 { color:#164E63; } /* darkest blue */
+.white {	color:#FFF; }
+.black {	color:#000; } 

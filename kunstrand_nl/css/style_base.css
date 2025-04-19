@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {	height: 100%; }
+
+body{
+	background-color: #ff9000;
+	background-image: url('../img/bg.gif');
+	background-attachment: fixed;
+	top:0px;
+	
+	overflow-x: hidden;
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: 'verdana', sans-serif;
+	color: #000;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+
+/* MAIN LAYOUT */
+
+#main_container {
+	margin-top: 40px;
+	margin-right: 280px;
+	padding-left: 40px;
+}
+
+#logo_container {
+	width: 220px;
+	position: fixed;
+	z-index: 100;
+	right:40px;
+	margin: 0px;
+	padding: 0px;
+}
+.logo {
+	width: 220px;
+	height: 220px;
+	margin: 0px;
+}
+
+#sidebar_container {
+	width: 220px;
+	position: fixed;
+	margin-left: 40px;
+	margin-top: 200px;
+}
+
+#footer {
+	height: 300px;
+}
+
+/* SIDEBAR PROJECTS */
+
+#sidebar_container .project_header {
+	background-color: #094b5c;
+	width: 100%;
+	position: relative;
+	border:1px solid #024251;
+
+	-moz-border-topleft-radius: 6px; /* border radius */
+	-webkit-border-top-left-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+
+#sidebar_container .project_content {
+	width: 100%;
+	position: relative;
+
+	border-left:1px solid #024251;
+	border-right:1px solid #024251;
+	border-bottom:1px solid #024251;
+
+	color: #FFF;
+	background-color: #288aa8;
+	
+	-moz-border-bottomleft-radius: 6px; /* border radius */
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;	
+}
+#sidebar_container .project_padding {
+	padding: 10px;
+	padding-bottom: 0px; 
+}
+#sidebar_container .project_date {
+	font-family:  "museo-slab", serif;
+	font-weight: 400;
+	color: #ffcc33;	
+}
+
+/* SIDEBAR QUOTES */
+
+#sidebar_container .quote_content {
+	width: 100%;
+	position: relative;
+
+	border:1px solid #024251;
+
+	color: #FFF;
+	background-color: #288aa8;
+	
+	-moz-border-radius: 6px; /* border radius */
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border-radius: 6px;	
+}
+#sidebar_container .quote_padding {
+	padding: 10px; 
+}
+#sidebar_container .quote_date {
+	font-family:  "museo-slab", serif;
+	font-weight: 400;
+	color: #ffcc33;	
+}
+
+/* MENU CONTAINER */
+
+#menu_container {
+	width: 220px;
+	position: relative;
+	z-index: 99;
+	text-align: left;
+}
+.menu {
+	top:10px;
+	left:0px;
+	width:100%;
+}
+.sub_menu {
+}
+
+
+/* CONTENT CONTAINER */
+
+#content_container {
+	position:relative;
+}
+.content {
+	position:relative;
+    float:right;
+   	width: 700px;	
+	text-align: left;
+	background-color: #fff;	
+	margin-bottom: 100px;
+}
+.content_header {	
+	width: 100%;
+	height:40px;
+	background-color: #000;
+}
+.content_padding {
+	padding: 10px; 
+}
+
+/* PROJECT ITEMS */
+#masonary_container {
+	margin-right: 280px;
+}
+
+#project_large {
+	width: 340px;
+	margin-bottom: 20px;
+}
+#project_large .project_header {
+	width: 100%;
+	height:40px;
+	background-color: #000;
+}
+#project_large .project_content {
+	padding: 10px;
+	background-color: #FFF;
+	
+}
+#project_large .padding {
+	padding: 10px; 
+}
+
+#project_small {
+	width: 340px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+#project_small .project_header {
+	width: 100%;
+	height:40px;
+	background-color: #000;
+}
+#project_small .project_content {
+	padding: 10px;
+	background-color: #FFF;
+	
+}
+#project_small .padding {
+	padding: 10px; 
+}
+/* GENERAL ITEMS */
+
+.clear { clear: both; }
+
+.fl { float: left; }
+.fr { float: right; }
+
+img { border: 0px; margin: 0px; padding: 0px; }
+.image { margin-bottom: 10px;  }
+.project_image { margin-top: 0px;margin-bottom: 10px;  }
+
+.divider { border-top:1px dashed #000; }
+.divider2 { border-top:1px dashed #164E63; }
+
+
+/* SOCIAL ICONS BUTTONS */
+
+.socials {
+	text-align: center;
+	left: 18px;
+	top: 15px;
+	width: 220px;
+	height: 20px;
+}
+.social_home {
+	margin-top: 10px;
+	background-color: #ff9000;
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 210px;
+	height: 30px;
+}
+.social_button_fb{
+	float: left;
+	text-align: left;
+	vertical-align: top !important;
+	margin-right: 0px;
+}
+.social_button_tw {
+	float: right;
+}
+
+.social_button_tw iframe {
+	text-align: left;
+	vertical-align: top !important;
+}
+
+
+/* VAN HONING */
+#vh { 	
+	font-family: 'Arial', sans-serif;
+	font-size:10px;
+	font-weight: 400;
+	position: fixed;
+    bottom: 15px;
+    right: 50px;
+    letter-spacing:1px;
+    /* background-color: rgba(255,144,0,.7); */
+
+}
+.vh_txt:link, .vh_txt:visited {
+		margin-left: 5px;
+		margin-right: 5px;
+		color:#FFF; 
+		text-decoration:none; 
+		outline:none;
+}
+.vh_txt:hover {
+		color:#000;
+		background-color: rgba(255,144,0,1);
+}
+
+
+
