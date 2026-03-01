@@ -20,5 +20,10 @@ wp-config.php
 # Log files
 *.log
 
+# Database dumps
+*.sql
+
 # htaccess
 /.htaccess
+
+.DS_Store

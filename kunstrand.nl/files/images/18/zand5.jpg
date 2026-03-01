@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="EN" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+ 	<meta charset='utf-8'> 
+ 	<meta name="description" content="Een nieuwe ontmoetingsplaats in Dordrecht, geboren uit de samenwerking van de drie Dordtse initiatiefnemers; Baracca, stichting Noordkaap en Werkplaats Oost, met ondersteuning van stichting Doen en de Gemeente Dordrecht.
+Voortgekomen uit de gestrande stadsstrand-ideeën ontstaat het project Kunstrand van Dordt nu op de Stadswerven naast de Ark en de Biesboschhal. Gedurende de zomer zullen hier diverse ontmoetingsmomenten plaatsvinden met bijzondere activiteiten, betreffende kunst & cultuur, muziek en sport. Kunst dient hierbij als conversation piece. 
+De Kunstrand is een participatieproject en wordt mede vormgegeven door jou!" />
+	<meta name="keywords" content="kunstrand, dordtrecht, strand, yvo van der vat, 404" />
+	<meta name="author" content="Ontwerp van Honing - http://www.vanhoning.nl" />
+	<meta name="robots" content="index,follow" />
+	<title>KUNSTRAND / Oeps!</title>
+	<link href="http://www.kunstrand.nl/css/style_base.css" rel="stylesheet" type="text/css" />	<link href="http://www.kunstrand.nl/css/style_text.css" rel="stylesheet" type="text/css" />	<link href="http://www.kunstrand.nl/css/style_extra.css" rel="stylesheet" type="text/css" />	<link href="http://www.kunstrand.nl/css/form.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+	<script src="http://www.kunstrand.nl/js/vanhoning.js"></script>
+	<script src="http://www.kunstrand.nl/js/jquery.viewport.js"></script>
+	<script src="http://www.kunstrand.nl/js/masonry.pkgd.min.js"></script>
+	
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+</script>
+
+<div id='main_container'>
+<div id='logo_container'>
+<a href="http://www.kunstrand.nl/welkom"><div class='logo'>
+	<img src="http://www.kunstrand.nl/img/logo.jpg"/>
+</div></a><!-- close logo -->
+
+<div id='menu_container'>
+
+		<div class='menu'>
+<!-- 		<ul id=\'nav\'><li><a class='page ' href=http://www.kunstrand.nl/></a></li></ul> -->
+			
+
+<ul id='nav'><a class='page ' href=http://www.kunstrand.nl/welkom><li class='li_nav' id=>WELKOM</li></a><a class='page ' href=http://www.kunstrand.nl/archief><li class='li_nav' id=>ARCHIEF</li></a><a class='page ' href=http://www.kunstrand.nl/over><li class='li_nav' id=36>Over ons</li></a><a class='page ' href=http://www.kunstrand.nl/links><li class='li_nav' id=35>Links</li></a><a class='page ' href=http://www.kunstrand.nl/oproep><li class='li_nav' id=40>oproep!</li></a><a class='page ' href=http://www.kunstrand.nl/contact><li class='li_nav' id=38>Contact & Route</li></a><div class="clear"></div></ul>		</div><!-- close menu -->
+		<div class='social_home'><div class="fb-like" data-href="http://www.kunstrand.nl" data-send="false" data-layout="button_count" data-show-faces="false" data-colorscheme="light"></div>
+		<div class='social_button_tw fr'><a href='https://twitter.com/share' class='twitter-share-button' data-url='http://www.kunstrand.nl' data-via='kunstrand' data-text='Kunstrand' data-lang='en'></a></div><div class='clear'></div>
+		</div>
+		
+		<a href="http://www.baracca.nl/" target="_blank"><img style='float:left;margin-right:10px;margin-top:10px' src="http://www.kunstrand.nl/img/baraccalogo.jpg" alt="baraccalogo.jpg" width="220" height="68" style='margin-top:10px;'/></a>		
+		<a href="http://www.doen.nl/" target="_blank"><img style='float:left;margin-right:10px;margin-top:10px' src="http://www.kunstrand.nl/img/stichting_doen_logo.jpg" alt="stichting_doen_logo" width="75" height="69" style='margin-top:10px;'/></a>
+		<a href="http://www.werkplaatsoost.nl/" target="_blank"><img style='float:left;margin-right:10px;margin-top:10px' src="http://www.kunstrand.nl/img/werkplaatsoost_logo.jpg" alt="werkplaatsoost_logo" width="118" height="69" /></a>
+		<a href="http://cms.dordrecht.nl/" target="_blank"><img style='float:left;margin-right:10px;margin-top:10px' src="http://www.kunstrand.nl/img/logo-gem.-Dordrecht.jpg" alt="logo-gem.-Dordrecht" width="147" height="69" /></a>
+		<a href="http://www.noordkaap.org/" target="_blank"><img style='float:left;margin-right:10px;margin-top:10px' src="http://www.kunstrand.nl/img/noordkaap_logo.jpg" alt="noordkaap_logo" width="41" height="69" /></a>
+
+		
+		
+</div><!-- close menu_container -->
+
+</div><!-- close logo_container -->
+
+<div id='content_container'>
+
+<div class='content'>
+<div class='content_header'>
+<div class='padding'>
+<h3>Oeps!</h3>
+</div>
+</div>
+
+<div class='content_padding'>
+Oeps, de pagina die u zoek bestaat helaas niet!<br />
+<a href=http:/ class='lnk'>Klik hier om terug te gaan naar de website</a><br />
+<br />
+<!-- Deze pagina niet verwijderen! --><br />
+<br />
+</div>
+</div>
+
+<div class="clear"></div>
+
+</div><!-- close content_container --></div>
+
+<div id='vh'><a href="http://www.vanhoning.nl" class=vh_txt>SITE BY VAN HONING</a></div>
+</body>
+</html>
